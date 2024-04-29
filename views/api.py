@@ -1,10 +1,11 @@
 from flask import Blueprint, request, jsonify
-from controllers.register import register_user
+from controllers.clarifai import detection
 
 api_bp = Blueprint('api', __name__)
 
 @api_bp.route('/endpoint1')
 def endpoint1():
+    detection()
     return 'This is endpoint 1'
 
 @api_bp.route('/endpoint2')

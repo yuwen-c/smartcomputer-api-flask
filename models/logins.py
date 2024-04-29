@@ -37,15 +37,4 @@ def get_user(email):
     print(e)
     return None
 
-# 需要哪些功能？註冊、登入、
-# 登入：取得該名user(用email)，比對密碼是否正確
-
-def login_user(email, password):
-  user = get_user(email)
-  print(user)
-  if not user:
-    return
-  if user[2] == password:
-    return user
-  return
 
