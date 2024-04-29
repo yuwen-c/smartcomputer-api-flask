@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask
+instance/
+webapp.egg-info/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.*
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Testing
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+
+.venv/
